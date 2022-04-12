@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/manhattan_neighborhoods.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+     <!-- Link to the stylesheet -->
+     <link rel="stylesheet" href="css/style.css">
+    <title>Introduction</title>
+    </head>
+</head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
+<body>
+	<!-- Header is a sematic tag page that aids readability -->
+	<header>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li class="active"><a href = "index.html" >Introduction</a></li>
+				<li><a href = "fidi.html">Financial District</a></li>
+				<li><a href = "soho.html">SoHo</a></li>
+				<li><a href = "chinatown.html">Chinatown</a></li>
+			</ul>
+		</nav>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1>Introduction</h1>
+			<p>This is my personal food guide for the various amazing restaruants on the island of Manhattan.
+            This is composed of knowledge gained from 10 years of living in the city and hours spent on Yelp. 
+            Simply select the neighborhood you are looking for and dive right in!
+        	</p>
+
+	</header>
+
+	<!-- Every page should have a main tag for accessibility -->
+	<main>
+
+		<div class="fidi">
+			<div class = "fidi_card">
+				<div class = "fidi_images" >
+					<img src=  "image/fidi.jpeg" alt= "overview of the financial district '" width="400"/>
+				</div>
+				<div class = "fidi_content" >
+					<li><a href = "fidi.html">Financial District</a></li>
+				</div>
+			</div>
+
+		<div class="soho">
+			<div class = "soho_card">
+				<img src=  "image/soho.jpeg" alt= "overview of Soho '" width="400"/>
+			</div>
+			<div class = "soho_content" > 
+				<li><a href = "soho.html">SoHo</a></li>
+			</div>
+		</div>
+
+		<div class="chinatown">
+			<div class = "chinatown_card">
+				<img src=  "image/chinatown.jpeg" alt= "overview of chinatown '" width="400"/>
+			</div>
+            <div class = "chinatown_content" > 
+           	 <li><a href = "chinatown.html">Chinatown</a></li>
+			</div>
+
+		</div>
+		</p>
+	</main>
+	
+	<form
+		action="https://formspree.io/f/mlezlbka"
+		method="POST"
+	>
+		<fieldset> 
+			<legend>Personal Information:</legend>
+			<label for="name">Name</label>
+			<input type="text" id = "name" name="Name"><br/>
+			<label> Email: 
+				<input type="email" value = "email@umich.edu" name="address">
+			</label><br/>
+			<label for="age">How old are you?:</label>
+			<input type="number" id = "age" name = "age"><br>
+			<label for="food">What was your favorite restuarant?:</label>
+			<input type="text" id = "food" name = "place"><br>
+			<input type = "submit" value = "Save!">
+		</fieldset>
+	</form> 
+
+	
+	
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
+		<p>Sage Pei &copy; 2022</p>
+	</footer>
+</body>
+</html>

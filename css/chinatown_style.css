@@ -1,0 +1,125 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+html {
+	scroll-behavior: smooth; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 50px;
+    margin-top: auto;
+    height: 1300px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  body{
+    background-color: rgba(245, 227, 205, 0.897);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:1%;
+    padding:1%;
+    font-size:100%;
+    overflow-x:hidden;
+    position: relative;
+  }
+ 
+  
+  h1{
+    background-color: rgb(238, 178, 173);
+    font-size: 2em; 
+    font-weight: bold;
+  }
+  
+  
+  .active{
+    background: rgb(212, 203, 203);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  
+  /*Style the images*/
+  img{
+    display: inline-block;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+  }
+  
+  .breakroom_card, .card456{
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+  }
+
+  .breakroom_photo, .photo_456{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  h2{
+    font-size: 2em; 
+    font-style: italic;
+    font-weight:bold;
+  
+  }
+  
+  /*Improve the spacing for paragraphs AND headings*/
+  p, h1, h2 {
+    padding: 20px;
+  }
+  
+  /*Add borders around the main components and some
+  space too*/
+  header, nav, main, h1, footer{
+    border: 2px solid goldenrod;
+    margin: 10px 0;
+  }
+  
+  nav{
+    display: flexbox;
+  }
+  
+  .link, .address{
+    display: flex;
+    justify-content: center;
+  }
+  /*Change the styling for all of the list 
+  items in the nav section*/
+  nav li{
+    background-color: #f0b7b4;
+    padding:10px;
+    width:25%;
+    border:1px solid black;
+    display: inline-block;
+    width: 20%;
+  }
+
+  .speciality8{
+    font-size: 100%;
+    font-style: italic; 
+    font-weight: lighter;
+    margin: 10px;
+    background-color: #d6b864;
+  }
+
+  .speciality9{
+    font-size: 100%;
+    font-style: italic; 
+    font-weight: lighter;
+    margin: 10px;
+    background-color: #c6db67;
+  }
+
+  img:hover{
+    filter: grayscale();
+    border: dashed; 
+  
+  /*Added this so the links stay the same color*/
+  a:visited{color:#0000FF}
+  
+  
+  

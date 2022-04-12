@@ -1,0 +1,104 @@
+body {
+  font-family: 'Crimson Pro', serif;
+  text-rendering: optimizeLegibility !important;
+  background: #111222;
+}
+
+.body-fixed {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: auto;
+  left: auto;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+a{ 
+  color: white;
+}
+.nav_box{
+  font-family:'Josefin Sans';
+  font-size: 20px;
+}
+.nav_box ul li:hover{
+	background-color: goldenrod;
+}
+
+.nav_box ul li a:hover{
+	color: white;
+}
+
+ul li{
+	width: 120px;
+	float:left;
+	text-align:center;
+	text-size-adjust: 200px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+
+.sec-btn {
+  min-width: 120px;
+  min-height: 58px;
+  background: #111222;
+  color: white;
+  box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none !important;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  padding: 6px 30px;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.sec-sub-title {
+  text-transform: uppercase;
+  display: inline-block;
+  background: #111222;
+  box-shadow: 9px 9px 12px #e4e4e4, -9px -9px 12px #ffffff;
+  padding: 3px 20px;
+  border-radius: 60px;
+  color: white;
+  font-size: 14px;
+}
+
+.h2-title {
+  font-size: 46px;
+  line-height: 56px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  position: relative;
+  color: white;
+}
+.xxl-text {
+  text-transform: capitalize;
+  font-size: 52px;
+  line-height: 72px;
+  margin-bottom: 30px;
+  color: white;
+}

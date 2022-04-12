@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  a{ 
+    color: white;
+  }
+  .nav_box{
+    font-family:'Josefin Sans';
+    font-size: 20px;
+  }
+  .nav_box ul li:hover{
+      background-color: goldenrod;
+  }
+  
+  .nav_box ul li a:hover{
+      color: white;
+  }
+  
+  ul li{
+      width: 120px;
+      float:left;
+      text-align:center;
+      text-size-adjust: 200px;
+  }
+  
+  body{
+    background: #111222;
+    font-family: 'Crimson Pro', serif;
+  }
+  
+  section{
+    position: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+  }
+  
+  .container{
+    position: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    overflow:hidden;
+  }
+
+  .contact_form{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center; 
+}
+.contact_form h1{
+  animation-duration: 3s;
+  animation-name: slidein;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	text-transform: capitalize;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.form_details{
+    font-family: 'Josefin Sans', sans-serif;
+}

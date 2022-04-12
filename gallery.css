@@ -1,0 +1,41 @@
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(70%);
+}
+
+nav{
+	width:100%;
+	background-color: black;
+}
+.nav_box{
+	width: 900px;
+	float: center;
+	font-size: 20px;
+}
+
+ul li{
+	width: 120px;
+	padding: 0px 10px;
+	margin:10px auto;
+	text-size-adjust: 200px;
+}
+
+ul{
+	margin: 10px;
+}
+
+
+ul li a{
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.nav_box ul li:hover{
+	background-color: goldenrod;
+}
+
+.nav_box ul li a:hover{
+	color: white;
+}

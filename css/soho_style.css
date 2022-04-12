@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    flex-basis: 100%;
+  }
+  a{ 
+    color: white;
+  }
+  .nav_box{
+    font-family:'Josefin Sans';
+    font-size: 20px;
+  }
+  .nav_box ul li:hover{
+      background-color: goldenrod;
+  }
+  
+  .nav_box ul li a:hover{
+      color: white;
+  }
+  
+  ul li{
+      width: 120px;
+      float:left;
+      text-align:center;
+      text-size-adjust: 200px;
+  }
+  
+  body{
+    background: #111222;
+    font-family: 'Crimson Pro', serif;
+  }
+  
+  section{
+    position: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+  }
+  
+  .container{
+    position: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    overflow:hidden;
+  }
+  
+  .main-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4em; 
+    margin-bottom: 10px;
+  }
+  .description{
+    max-width: 910px;
+    font-size:20px;
+    margin-bottom:50px;
+  }
+  .rubys_card{
+    display: grid;
+    position: relative;
+    width: 1150px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: inline;
+  }
+  
+  .rubys_card .rubys_photo{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .rubys_img{
+    position: absolute;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .rubys_card .text-box{
+    position: absolute;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    transform: translate(420px,-400px);
+  }
+  
+  .rubys_card .text-box h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .highlights{
+    font-size: 100%;
+    font-style: bold; 
+    font-weight: bolder;
+    margin: 10px;
+    background-color: rgb(114, 83, 114);
+  }
+  
+  .link{
+    text-align: center;
+    font-size: 100%;
+    font-style: bold; 
+    font-weight: bolder;
+    margin: 10px;
+  }
+  
+  .address{
+    text-align: center;
+    font-size: 100%;
+    font-style: bold; 
+    font-weight: bolder;
+    margin: 10px;
+  }
+  
+  .domo_card{
+    display: grid;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: inline;
+  }
+  
+  .domo_content{
+    width: 400px;
+    margin-left: 50px;
+  }
+  
+  .domo_card .text-box{
+    position: absolute;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    transform: translate(0px,-100px);
+  }
+  
+  .domo_card .text-box h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .domo_card .domo_photo{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    transform: translate(500px,-120px);
+  }
+  
+  .domo_img{
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .mercer_card{
+    display: grid;
+    position: relative;
+    width: 1150px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: inline;
+    grid-template-columns: 1.5fr 1fr;
+  }
+  
+  .mercer_card .mercer_photo{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    transform: translate(150px,-250px);
+  }
+  
+  .mercer_img{
+    position: absolute;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .text-box{
+    position: absolute;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    transform: translate(600px,-650px);
+  }
+  
+  .mercer_card .text-box h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .gallery{
+    display: grid; 
+    grid-template-columns: repeat(9,1fr);
+    overflow: scroll;
+    justify-items: center;
+    padding: 0px;
+  }
+  
+  .gallery{
+    animation:fadeIn 5s;
+  }
+  
+  footer{
+    color: white;
+    font-family: Josefin Sans;
+  }
+
+  

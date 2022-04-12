@@ -1,0 +1,270 @@
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{ 
+  color: white;
+}
+.nav_box{
+  font-family:'Josefin Sans';
+  font-size: 20px;
+}
+.nav_box ul li:hover{
+	background-color: goldenrod;
+}
+
+.nav_box ul li a:hover{
+	color: white;
+}
+
+ul li{
+	width: 120px;
+	float:left;
+	text-align:center;
+	text-size-adjust: 200px;
+}
+
+body{
+  background: #111222;
+  font-family: 'Crimson Pro', serif;
+  height: auto !important;
+}
+
+section{
+  position: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 80px 100px;
+  color: #fff;
+}
+
+.container{
+  position: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  overflow:hidden;
+}
+
+.main-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 4em; 
+  margin-bottom: 10px;
+}
+.description{
+  max-width: 910px;
+  font-size:20px;
+  margin-bottom:50px;
+}
+.tacombi_card{
+  display: grid;
+  position: relative;
+  width: 1150px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: inline;
+}
+
+.tacombi_card .tacombi_photo{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.tacombi_img{
+  position: absolute;
+  width: 50%;
+  border-radius: 10px;
+}
+.tacombi_card .text-box{
+  position: absolute;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  transform: translate(420px,-350px);
+}
+
+.tacombi_card .text-box h4{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.highlights{
+  font-size: 100%;
+  font-style: bold; 
+  font-weight: bolder;
+  margin: 10px;
+  background-color: rgb(114, 83, 114);
+}
+
+.link{
+  text-align: center;
+  font-size: 100%;
+  font-style: bold; 
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.address{
+  text-align: center;
+  font-size: 100%;
+  font-style: bold; 
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.hitw_card{
+  display: grid;
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: inline;
+}
+
+.hitw_content{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.hitw_card .text-box{
+  position: absolute;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  transform: translate(-225px,-125px);
+}
+
+.hitw_card .text-box h4{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.hitw_card .hitw_photo{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  transform: translate(200px,-120px);
+}
+
+.hitw_img{
+  position: absolute;
+  border-radius: 10px;
+}
+
+.ohara_card{
+  display: grid;
+  position: relative;
+  width: 1150px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: inline;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.ohara_card .ohara_photo{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  transform: translate(225px,-290px);
+}
+
+.ohara_img{
+  position: absolute;
+  width: 50%;
+  border-radius: 10px;
+}
+.text-box{
+  position: absolute;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  transform: translate(680px,-750px);
+}
+
+.ohara_card .text-box h4{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.R66_card{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: inline;
+}
+
+.R66_content{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.R66_card .text-box{
+  position: absolute;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  transform: translate(-225px,-525px);
+}
+
+.R66_card .text-box h4{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.R66_card .R66_photo{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  transform: translate(200px,-520px);
+}
+
+.R66_img{
+  position: absolute;
+  border-radius: 10px;
+}
+
+.gallery{
+  display: grid; 
+  grid-template-columns: repeat(9,1fr);
+  overflow: scroll;
+  justify-items: center;
+  padding: 0px;
+}
+
+.gallery{
+  animation:fadeIn 5s;
+}
+
+footer{
+  color: white;
+  font-family: Josefin Sans;
+}
